@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container__header {
+    background-image: url(./losAngles.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    padding-top: 8px;
+    animation: opacity 1s linear infinite;
+}
+
+
+.h {
+    font-size: 50px;
+    padding-top: 4px;
+}
+
+
+.m {
+    font-size: 50px;
+    padding-top: 4px;
+}
+
+
+.s {
+    font-size: 35px;
+    padding-top: 14px;
+}
+
+.header1 {
+    padding-top: 8px;
+    animation: opacity 1s linear infinite;
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 1;
+    }
+
+    5% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+}
